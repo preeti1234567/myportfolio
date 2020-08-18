@@ -1,5 +1,12 @@
 import React from "react";
-const Body = () => {
-  return <div>Body</div>
-};
+import Projects from './projects'
+import AboutMe from "./aboutMeCard";
+import Resume from './resumeCard'
+const Body = (props) => {
+  return (<div>
+    <AboutMe />
+    <Projects />
+    <Resume />
+    </div>);
+}
 export default Body;

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./App.css";
+import React from "react";
+//import "./App.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
 
@@ -10,7 +10,7 @@ function App() {
 // const setLink = ()=>{
 // switch (linkSite){
 // case 'aboutMe'
-// return  
+// return  ();
 // case 'resume'
 // return 
 // case 'portfolio'
@@ -32,7 +32,7 @@ function App() {
       <div className="bg-light">
         <Header />
         </div>
-        <div className=" bg-dark">
+        <div className="bg-dark">
           <Body />
         </div>
       </div>
