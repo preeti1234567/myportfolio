@@ -31,13 +31,7 @@ const Body = (props) => {
         <Contact />
       </div>
     );
-  }
-  else {
-   return (<div>
-    <AboutMe />
-  </div>);
-  }
-  
+  }  
 }
    
 

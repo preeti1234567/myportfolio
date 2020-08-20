@@ -8,11 +8,11 @@ The purpose of this assignment was to make responsive portfolio for mobile and t
 ### Prerequisites
 1. Bootstrap Framework.(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css)
 
-2. *HTML*
+2. *CSS*
 
-3. *CSS*
+3. *Javascript*
 
-4. *Javascript*
+4. *jQuery*
 
 5. *React*
 
@@ -23,7 +23,7 @@ The purpose of this assignment was to make responsive portfolio for mobile and t
 
 ##  Details of Project
 
-Creating portfolio for myself which will work on both mobile and tablets. It has three links which is shown in one page using react.A Header component that appears on multiple pages, a single Project component that will be used multiple times on a single page, and a Footer component that appears on multiple pages. The hompage contains links to resume,contact, Project.
+Creating portfolio for myself which will work on both mobile and tablets. It has three links which is shown in one page using react. A Header component that appears on multiple pages, a single Project component that will be used multiple times on a single page, and a Footer component that appears on multiple pages. The hompage contains links to resume,contact, Project.
 1. Home: By Default About me is displayed.   
 2. Resume: It contains my resume.
 3. Project: It contains some of my work such as Financhill, Eat-Da-Burger, Note-Taker, uDecide, workdays-schedular and Password Generator.
@@ -33,7 +33,8 @@ Creating portfolio for myself which will work on both mobile and tablets. It has
 By default About me is display. To view other pages use the navigation link which will open in the frame in my home page.
 
 
-(Deployed link)[]
-
-
+My Schedular Website Link ->  ()
+![Snapshot](public/images/screenshot1.png)
+![Snapshot](public/images/screenshot2.png)
+![Snapshot](public/images/snapshot3.png)
 

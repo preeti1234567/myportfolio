@@ -6,16 +6,17 @@ import Footer from "./components/Footer";
 
 const App =()=> {
   
-const [currentSelection, setCurrentSelection] = useState('')
+const [currentSelection, setCurrentSelection] = useState('aboutMe')
 
-const handlerForNavigationBar = (event) => {    
-  setCurrentSelection(event.href);
+const handlerForNavigationBar = (e) => { 
+  e.preventDefault();
+  setCurrentSelection(e.currentTarget.dataset.div_id);    
 };
 
   return (
     <div className="App">
       <div className="container">
-      <div className="bg-light">
+      <div className="bg-light" style={{background: "#A9ACE9" }}>
         <Header needHandlerToBePassedToNavigationBar={handlerForNavigationBar}/>
         </div>
         <div className="bg-dark">

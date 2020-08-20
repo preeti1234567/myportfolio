@@ -6,17 +6,17 @@ const NameDescription = () => {
       <div className="col-9 ">
         <p className="pl-5 text-left text-dark h1 font-italic">Preeti Gupta</p>
         <p className="pl-5 text-left h4 text-info font-italic">
-          Aspring Web Develop
+          Aspring Web Developer
         </p>
       </div>
       <div className="col-3">
         <a
-          className="text-white p-1"
+          className="p-1"
           href="https://www.linkedin.com/in/preetigupta-59a5641ab/"
         >
           Linked
         </a>
-        <a className="text-white p-1" href="https://github.com/preeti1234567">
+        <a className="p-1" href="https://github.com/preeti1234567">
           Github
         </a>
       </div>

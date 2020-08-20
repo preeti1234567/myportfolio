@@ -10,7 +10,7 @@ const Header = (props) => {
         <Image url={"images/preeti.jpg"}/>
       </div>
       <div className="col-9">
-        <div style={{backgroundColor:"#33DFFF"}} >
+        <div style={{backgroundColor:"#E5F8FB"}} >
           <NameDescription />
         </div>
         <div className="col-12 bg-info">

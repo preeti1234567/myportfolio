@@ -7,19 +7,19 @@ const Contact = ()=>{
         <div className="card-body">
             <form>
             <div className="form-group">
-                <label for="name">Name</label>
+                <label htmlFor="name">Name</label>
                 <input type="text" className="form-control" id="name" placeholder="Your Name" required />
             </div>
             <div className="form-group">
-                <label for="email">E-mail</label>
+                <label htmlFor="email">E-mail</label>
                 <input type="email" className="form-control" id="email" placeholder="name@example.com" required />
             </div>
             <div className="form-group">
-                <label for="subject">Subject</label>
+                <label htmlFor="subject">Subject</label>
                 <input type="text" className="form-control" id="subject" placeholder="Subject" required />
             </div>
             <div className="form-group">
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea className="form-control" id="message" rows="3" required></textarea>
             </div>
             <button type="submit" className="btn btn-info" id="submitContact">Submit</button>
