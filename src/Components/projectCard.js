@@ -37,8 +37,8 @@ const ProjectCard = (props) => {
             </p>
           </div>
           <div className="row">
-            {props.project.pictureurl.map((url) => (
-              <Image key={url + counter++} url={url} />
+            {props.project.pictureurl.map((pictureUrl) => (
+              <Image key={pictureUrl + counter++} url={pictureUrl} />
             ))}
           </div>
         </div>

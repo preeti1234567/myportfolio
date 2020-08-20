@@ -3,18 +3,18 @@ import NameDescription from "./NameDescription";
 import Image from "./Image.js";
 import NavigationBar from "./NavigationBar";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="row">
       <div className="col-3">
         <Image url={"images/preeti.jpg"}/>
       </div>
       <div className="col-9">
-        <div style={{backgroundColor:"antiquewhite"}} >
+        <div style={{backgroundColor:"#33DFFF"}} >
           <NameDescription />
         </div>
         <div className="col-12 bg-info">
-          <NavigationBar />
+          <NavigationBar handleInputValue={props.needHandlerToBePassedToNavigationBar}/>
         </div>
       </div>
     </div>

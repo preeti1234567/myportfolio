@@ -3,8 +3,8 @@ const Image = (props) => {
   return (
     <div>
       {
-        <img
-          className="rounded  img-fluid img-thumbnail"
+        <img style={{width:"250px",height:"250px"}}
+          className="rounded  img-fluid img-thumbnail float-left "
           alt=""
           src={process.env.PUBLIC_URL + props.url}
         ></img>

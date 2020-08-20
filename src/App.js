@@ -1,39 +1,28 @@
-import React from "react";
+import React,{useState} from "react";
 //import "./App.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
+import Footer from "./components/Footer";
 
-function App() {
+const App =()=> {
+  
+const [currentSelection, setCurrentSelection] = useState('')
 
-//  const [linkSite, setLinkSite]= useState('')
-
-// const setLink = ()=>{
-// switch (linkSite){
-// case 'aboutMe'
-// return  ();
-// case 'resume'
-// return 
-// case 'portfolio'
-// return
-// case 'contact'
-// return
-// }
-// }
-
-
-//   const handleInputValue = (event) =>
-//   {    
-//      setLinkSite(setLink());
-//   }
+const handlerForNavigationBar = (event) => {    
+  setCurrentSelection(event.href);
+};
 
   return (
     <div className="App">
       <div className="container">
       <div className="bg-light">
-        <Header />
+        <Header needHandlerToBePassedToNavigationBar={handlerForNavigationBar}/>
         </div>
         <div className="bg-dark">
-          <Body />
+          <Body selection= {currentSelection} />
+        </div>
+        <div >
+          <Footer />
         </div>
       </div>
     </div>
